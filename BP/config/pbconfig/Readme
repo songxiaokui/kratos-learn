@@ -1,0 +1,3 @@
+protoc --proto_path=./BP --proto_path=./third_party --go_out=paths=source_relative:./BP ./BP/config/pbconfig/bostsetup.proto
+
+## 如果缺少依赖 将google的依赖放置到--proto_path下
