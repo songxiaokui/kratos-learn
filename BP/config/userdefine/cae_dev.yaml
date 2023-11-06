@@ -14,4 +14,4 @@ CacheRedis:
   - Host: 127.0.0.1
     Pass: "123456"
     Type: node
-    DB: 2
+#    DB: 2
